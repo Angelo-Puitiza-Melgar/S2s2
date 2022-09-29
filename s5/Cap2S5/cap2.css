@@ -1,0 +1,54 @@
+/* SELECTOR UNIVERSAL */
+*{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*selector de etiqueta*/
+nav{
+    background:rgb(158, 169, 233);
+}
+
+h2{
+    color:blue;
+}
+
+/*seletor de clases*/
+.titulo{
+    text-align: center;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+
+/* SELECTOR DE ID */
+
+#idsec{
+    border: 2px solid black; ;
+}
+
+/* selector de atributos */
+
+[href]{
+    text-decoration: none;
+}
+[href="#"]{
+    color: rgb(9, 11, 117);
+}
+/* SELECCIONA UN HREF ESPECIFICO QUE COMIENZE CON HTTTPS Y TERMINE CON ..COM */
+[href^="htttps"]{
+    color: rgb(1, 241, 21);
+}
+[href$="..com"]{
+    text-decoration: underline;
+    /* INICIO=^-----FINAL=$ */
+}
+[href*="www."]{ 
+    border: 1px solid black;
+
+}
+[href*="qwp."]{ 
+    border: 1px solid rgb(147, 11, 238);
+
+}
+/* BUSQUEDA EN EL MEDIO CON * */

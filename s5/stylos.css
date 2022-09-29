@@ -1,0 +1,17 @@
+/* selector de etiqueta */
+nav{
+    background: crimson;
+
+}
+h2{
+    color: blueviolet;
+}
+
+/* selector de clases */
+.titulo{
+    text-align: center;
+}
+
+.titulo-border{
+    border: 2px solid black;
+}
